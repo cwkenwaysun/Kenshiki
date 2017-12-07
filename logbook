@@ -1,0 +1,14 @@
+1. Consider the problem you’re attempting to solve
+I need a faster way to collect data from Internet. Since I have no job currently, and no job means no data.
+
+2. Describe your method for solving it
+A multi-thread crawler is needed and I want to add some feature that allows me to directly turn the data into JSON form.
+Probally will use existing library like scrapy to reduce my work. 
+
+3. Describe the process of carrying out the method
+First, looks deep into scrapy and let it run well(setting time period).
+Second, I plan to write a JSON template and a program to read that JSON template.
+The JSON template should include value like Xpath or a filename or an object that handle logic.
+Third, make sure I can automatcally add url on url list from parsing or some other ways. 
+
+4. Record what happened, and ask how it could be improved
